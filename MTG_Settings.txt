@@ -1,0 +1,32 @@
+# ===== MACHINES =====
+# Machine: "name" "GCode" WorkAreaX WorkAreaY MaxZ Tollerance ClearanceHeight
+
+Machine: "FoxAlien 4040" "Std" 406.0 406.0 80.0 0.01 4.0
+
+# ===== TOOLS =====
+# Tool: "name" Diameter Length Flutes
+
+Tool: "1/8 Upcut" 3.175 25.0 2
+
+# ===== MATERIALS =====
+# Material: "name" CutDepth MaxDepth CutSpeed PlungeSpeed 
+
+Material: "Hard Plywood" 1.5 4.0 300.0 100.0 0.05
+Material: "Polycarbonate" 1.0 7.0 300.0 200.0 0.05
+
+# ===== GCODE =====
+# GCode: "name"
+
+GCode: "Std"
+InitialCode-Start
+G90
+G17
+G21
+G40
+G49
+G80
+M3 S1000
+InitialCode-End
+FinalCode-Start
+M5
+FinalCode-End

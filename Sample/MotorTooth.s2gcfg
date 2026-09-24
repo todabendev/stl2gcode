@@ -1,0 +1,31 @@
+# stl2gcode job configuration file
+
+Debug: 0
+
+# --- File Paths ---
+STLFile:	MotorTooth.stl
+SegFile:	MotorTooth.seg
+PathFile:	MotorTooth.path
+HTMLFile:	MotorTooth.html
+GCodeFile:	MotorTooth.gcode
+TestFile:	MotorToothTest.gcode
+
+SettingsFile:  ../MTG_Settings.txt
+Machine:	"FoxAlien 4040"
+Tool:	"1/8 Upcut"
+Material:	"Polycarbonate"
+
+# --- Workpiece dimensions (mm) ---
+WorkpieceX:	165.0
+WorkpieceY:	260.0
+WorkpieceZ:	6.4
+
+# --- Operation flags (Y/Yes/N/No) ---
+ArcTolerance:	0.01
+SkipExterior:	N
+CircleSegments:	18
+
+# --- Translate and Rotate
+RotateDeg:	0.0
+TranslateX: 20.0
+TranslateY: 20.0
