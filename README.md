@@ -20,7 +20,17 @@ QUICK START
 
 Then open MotorTooth.html in a web browser to see the cut paths.
 
+WINDOWS
+-------
+1. Install Python 3 from python.org. During setup, tick
+   "Add python.exe to PATH".
+2. Double-click Sample\MotorTooth.bat, or from a command window:
+     cd Sample
+     MotorTooth.bat
+   The window stays open until you press a key.
+3. Open MotorTooth.html in a web browser to see the cut paths.
 
+On Windows the Python command is "py" rather than "python3".
 PREPARING THE STL
 -----------------
 The surface on the XY plane at Z=0.0 defines the cut.
